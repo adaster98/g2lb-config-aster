@@ -15,3 +15,13 @@ Don't expect it to work for you.
 - Switch to LTO FULL
 - Disable kprobes and events
 - Disable KALLSYMS ( i personally never need it, but can easily re-enable if I do)
+
+10/Feb commit:
+- The following commits are for the purpose of getting docker working while not causing any boot time bloating or performance penalties
+- Enable Overlay FS
+- Enable Legacy IP tables
+- Enable various netfilter stuff
+- Enable IP_NF_RAW
+- Enable CPUSETS
+- Enable MEMCG
+- Enable various CGROUP stuff including DEVICE and BPF
