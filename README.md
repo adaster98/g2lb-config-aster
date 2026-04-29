@@ -1,1 +1,3 @@
 for AMD CPU/GPU
+
+LLVM=1
